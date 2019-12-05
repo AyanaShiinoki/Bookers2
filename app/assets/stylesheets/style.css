@@ -1,0 +1,43 @@
+.form-control{
+	margin-bottom: 10px;
+}
+
+.flash{
+	color:green;
+}
+
+.top span{
+	color: white;
+	font-size:20px;
+}
+
+
+
+.btn-success{
+	color:#666;
+}
+
+
+.sign-up, .login , .about-text , .row {
+	margin-top: 70px;
+}
+
+.row-edit{
+	margin-top: 70px;
+}
+
+.sign-up .field {
+	padding: 5px 0;
+}
+
+.login .field{
+	padding: 5px 0;
+}
+
+.edit{
+	margin-top: 70px;
+}
+
+.edit-book{
+	margin-top: 50px;
+}
