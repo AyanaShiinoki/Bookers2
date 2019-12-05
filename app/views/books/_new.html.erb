@@ -1,0 +1,17 @@
+            <h2>New book</h2>
+            <%= form_for(book) do |f| %>
+
+                <label class = "">Title</label>
+                    <div class="newbook-text">
+                        <%= f.text_field :title,class:"form-control m-4" %>
+                    </div>
+
+
+                <label class = "">Opinion</label>
+                    <div class="newbook-text">
+                        <%= f.text_area :body,class:"form-control m-4"  %>
+                    </div>
+                    <div class="create-book">
+                        <%= f.submit "Create Book", class:"btn btn-primary btn-block"%>
+                    </div>
+            <% end %>
